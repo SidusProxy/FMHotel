@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63043472976F55F00E8BB07 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63043462976F55F00E8BB07 /* Reservation.swift */; };
 		D813DCB02976D98600CC5DB7 /* FMHotelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DCAF2976D98600CC5DB7 /* FMHotelApp.swift */; };
 		D813DCB22976D98600CC5DB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DCB12976D98600CC5DB7 /* ContentView.swift */; };
 		D813DCB42976D98700CC5DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D813DCB32976D98700CC5DB7 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C63043462976F55F00E8BB07 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 		D813DCAC2976D98600CC5DB7 /* FMHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D813DCAF2976D98600CC5DB7 /* FMHotelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMHotelApp.swift; sourceTree = "<group>"; };
 		D813DCB12976D98600CC5DB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				D813DCBE2976D99600CC5DB7 /* User.swift */,
 				EFD7B1C92976F02E00809577 /* Room.swift */,
+				C63043462976F55F00E8BB07 /* Reservation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				D813DCB22976D98600CC5DB7 /* ContentView.swift in Sources */,
 				D813DCB02976D98600CC5DB7 /* FMHotelApp.swift in Sources */,
+				C63043472976F55F00E8BB07 /* Reservation.swift in Sources */,
 				EFD7B1CA2976F02E00809577 /* Room.swift in Sources */,
 				D813DCBF2976D99600CC5DB7 /* User.swift in Sources */,
 			);
