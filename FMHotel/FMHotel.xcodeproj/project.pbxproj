@@ -7,81 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8CBE8E42975A4DD00CBE0BF /* FMHotelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBE8E32975A4DD00CBE0BF /* FMHotelApp.swift */; };
-		D8CBE8E62975A4DD00CBE0BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBE8E52975A4DD00CBE0BF /* ContentView.swift */; };
-		D8CBE8E82975A4DE00CBE0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CBE8E72975A4DE00CBE0BF /* Assets.xcassets */; };
-		D8CBE8EB2975A4DE00CBE0BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CBE8EA2975A4DE00CBE0BF /* Preview Assets.xcassets */; };
-		D8CBE8F32975A50E00CBE0BF /* FMProKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8CBE8F22975A50E00CBE0BF /* FMProKit */; };
-		D8CBE8F52975A83C00CBE0BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBE8F42975A83C00CBE0BF /* User.swift */; };
+		D813DCB02976D98600CC5DB7 /* FMHotelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DCAF2976D98600CC5DB7 /* FMHotelApp.swift */; };
+		D813DCB22976D98600CC5DB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DCB12976D98600CC5DB7 /* ContentView.swift */; };
+		D813DCB42976D98700CC5DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D813DCB32976D98700CC5DB7 /* Assets.xcassets */; };
+		D813DCB72976D98700CC5DB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D813DCB62976D98700CC5DB7 /* Preview Assets.xcassets */; };
+		D813DCBF2976D99600CC5DB7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DCBE2976D99600CC5DB7 /* User.swift */; };
+		D813DCC22976DA0000CC5DB7 /* FMProKit in Frameworks */ = {isa = PBXBuildFile; productRef = D813DCC12976DA0000CC5DB7 /* FMProKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8CBE8E02975A4DD00CBE0BF /* FMHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8CBE8E32975A4DD00CBE0BF /* FMHotelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMHotelApp.swift; sourceTree = "<group>"; };
-		D8CBE8E52975A4DD00CBE0BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D8CBE8E72975A4DE00CBE0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8CBE8EA2975A4DE00CBE0BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D8CBE8F42975A83C00CBE0BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D813DCAC2976D98600CC5DB7 /* FMHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D813DCAF2976D98600CC5DB7 /* FMHotelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMHotelApp.swift; sourceTree = "<group>"; };
+		D813DCB12976D98600CC5DB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D813DCB32976D98700CC5DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D813DCB62976D98700CC5DB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D813DCBE2976D99600CC5DB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D8CBE8DD2975A4DD00CBE0BF /* Frameworks */ = {
+		D813DCA92976D98600CC5DB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CBE8F32975A50E00CBE0BF /* FMProKit in Frameworks */,
+				D813DCC22976DA0000CC5DB7 /* FMProKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D8CBE8D72975A4DD00CBE0BF = {
+		D813DCA32976D98600CC5DB7 = {
 			isa = PBXGroup;
 			children = (
-				D8CBE8E22975A4DD00CBE0BF /* FMHotel */,
-				D8CBE8E12975A4DD00CBE0BF /* Products */,
+				D813DCAE2976D98600CC5DB7 /* FMHotel */,
+				D813DCAD2976D98600CC5DB7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D8CBE8E12975A4DD00CBE0BF /* Products */ = {
+		D813DCAD2976D98600CC5DB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8CBE8E02975A4DD00CBE0BF /* FMHotel.app */,
+				D813DCAC2976D98600CC5DB7 /* FMHotel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8CBE8E22975A4DD00CBE0BF /* FMHotel */ = {
+		D813DCAE2976D98600CC5DB7 /* FMHotel */ = {
 			isa = PBXGroup;
 			children = (
-				D8CBE8E32975A4DD00CBE0BF /* FMHotelApp.swift */,
-				D8CBE8E52975A4DD00CBE0BF /* ContentView.swift */,
-				D8CBE8E72975A4DE00CBE0BF /* Assets.xcassets */,
-				D8CBE8E92975A4DE00CBE0BF /* Preview Content */,
-				D8CBE8F42975A83C00CBE0BF /* User.swift */,
+				D813DCBD2976D98D00CC5DB7 /* Model */,
+				D813DCAF2976D98600CC5DB7 /* FMHotelApp.swift */,
+				D813DCB12976D98600CC5DB7 /* ContentView.swift */,
+				D813DCB32976D98700CC5DB7 /* Assets.xcassets */,
+				D813DCB52976D98700CC5DB7 /* Preview Content */,
 			);
 			path = FMHotel;
 			sourceTree = "<group>";
 		};
-		D8CBE8E92975A4DE00CBE0BF /* Preview Content */ = {
+		D813DCB52976D98700CC5DB7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D8CBE8EA2975A4DE00CBE0BF /* Preview Assets.xcassets */,
+				D813DCB62976D98700CC5DB7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D813DCBD2976D98D00CC5DB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D813DCBE2976D99600CC5DB7 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8CBE8DF2975A4DD00CBE0BF /* FMHotel */ = {
+		D813DCAB2976D98600CC5DB7 /* FMHotel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8CBE8EE2975A4DE00CBE0BF /* Build configuration list for PBXNativeTarget "FMHotel" */;
+			buildConfigurationList = D813DCBA2976D98700CC5DB7 /* Build configuration list for PBXNativeTarget "FMHotel" */;
 			buildPhases = (
-				D8CBE8DC2975A4DD00CBE0BF /* Sources */,
-				D8CBE8DD2975A4DD00CBE0BF /* Frameworks */,
-				D8CBE8DE2975A4DD00CBE0BF /* Resources */,
+				D813DCA82976D98600CC5DB7 /* Sources */,
+				D813DCA92976D98600CC5DB7 /* Frameworks */,
+				D813DCAA2976D98600CC5DB7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -89,28 +97,28 @@
 			);
 			name = FMHotel;
 			packageProductDependencies = (
-				D8CBE8F22975A50E00CBE0BF /* FMProKit */,
+				D813DCC12976DA0000CC5DB7 /* FMProKit */,
 			);
 			productName = FMHotel;
-			productReference = D8CBE8E02975A4DD00CBE0BF /* FMHotel.app */;
+			productReference = D813DCAC2976D98600CC5DB7 /* FMHotel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D8CBE8D82975A4DD00CBE0BF /* Project object */ = {
+		D813DCA42976D98600CC5DB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					D8CBE8DF2975A4DD00CBE0BF = {
+					D813DCAB2976D98600CC5DB7 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = D8CBE8DB2975A4DD00CBE0BF /* Build configuration list for PBXProject "FMHotel" */;
+			buildConfigurationList = D813DCA72976D98600CC5DB7 /* Build configuration list for PBXProject "FMHotel" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,46 +126,46 @@
 				en,
 				Base,
 			);
-			mainGroup = D8CBE8D72975A4DD00CBE0BF;
+			mainGroup = D813DCA32976D98600CC5DB7;
 			packageReferences = (
-				D8CBE8F12975A50E00CBE0BF /* XCRemoteSwiftPackageReference "FMProKit" */,
+				D813DCC02976DA0000CC5DB7 /* XCRemoteSwiftPackageReference "FMProKit" */,
 			);
-			productRefGroup = D8CBE8E12975A4DD00CBE0BF /* Products */;
+			productRefGroup = D813DCAD2976D98600CC5DB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8CBE8DF2975A4DD00CBE0BF /* FMHotel */,
+				D813DCAB2976D98600CC5DB7 /* FMHotel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D8CBE8DE2975A4DD00CBE0BF /* Resources */ = {
+		D813DCAA2976D98600CC5DB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CBE8EB2975A4DE00CBE0BF /* Preview Assets.xcassets in Resources */,
-				D8CBE8E82975A4DE00CBE0BF /* Assets.xcassets in Resources */,
+				D813DCB72976D98700CC5DB7 /* Preview Assets.xcassets in Resources */,
+				D813DCB42976D98700CC5DB7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D8CBE8DC2975A4DD00CBE0BF /* Sources */ = {
+		D813DCA82976D98600CC5DB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CBE8E62975A4DD00CBE0BF /* ContentView.swift in Sources */,
-				D8CBE8E42975A4DD00CBE0BF /* FMHotelApp.swift in Sources */,
-				D8CBE8F52975A83C00CBE0BF /* User.swift in Sources */,
+				D813DCB22976D98600CC5DB7 /* ContentView.swift in Sources */,
+				D813DCB02976D98600CC5DB7 /* FMHotelApp.swift in Sources */,
+				D813DCBF2976D99600CC5DB7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D8CBE8EC2975A4DE00CBE0BF /* Debug */ = {
+		D813DCB82976D98700CC5DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		D8CBE8ED2975A4DE00CBE0BF /* Release */ = {
+		D813DCB92976D98700CC5DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +279,7 @@
 			};
 			name = Release;
 		};
-		D8CBE8EF2975A4DE00CBE0BF /* Debug */ = {
+		D813DCBB2976D98700CC5DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		D8CBE8F02975A4DE00CBE0BF /* Release */ = {
+		D813DCBC2976D98700CC5DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -332,20 +340,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8CBE8DB2975A4DD00CBE0BF /* Build configuration list for PBXProject "FMHotel" */ = {
+		D813DCA72976D98600CC5DB7 /* Build configuration list for PBXProject "FMHotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8CBE8EC2975A4DE00CBE0BF /* Debug */,
-				D8CBE8ED2975A4DE00CBE0BF /* Release */,
+				D813DCB82976D98700CC5DB7 /* Debug */,
+				D813DCB92976D98700CC5DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8CBE8EE2975A4DE00CBE0BF /* Build configuration list for PBXNativeTarget "FMHotel" */ = {
+		D813DCBA2976D98700CC5DB7 /* Build configuration list for PBXNativeTarget "FMHotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8CBE8EF2975A4DE00CBE0BF /* Debug */,
-				D8CBE8F02975A4DE00CBE0BF /* Release */,
+				D813DCBB2976D98700CC5DB7 /* Debug */,
+				D813DCBC2976D98700CC5DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -353,23 +361,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D8CBE8F12975A50E00CBE0BF /* XCRemoteSwiftPackageReference "FMProKit" */ = {
+		D813DCC02976DA0000CC5DB7 /* XCRemoteSwiftPackageReference "FMProKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/The-Pier/FMProKit";
 			requirement = {
-				branch = main;
+				branch = UserTesting;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D8CBE8F22975A50E00CBE0BF /* FMProKit */ = {
+		D813DCC12976DA0000CC5DB7 /* FMProKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D8CBE8F12975A50E00CBE0BF /* XCRemoteSwiftPackageReference "FMProKit" */;
+			package = D813DCC02976DA0000CC5DB7 /* XCRemoteSwiftPackageReference "FMProKit" */;
 			productName = FMProKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D8CBE8D82975A4DD00CBE0BF /* Project object */;
+	rootObject = D813DCA42976D98600CC5DB7 /* Project object */;
 }
