@@ -26,4 +26,12 @@ public struct RoomSupport{
     var available: Int?
     var capacity: Int?
     var roomNumber: Int?
+    
+    init(room:Room){
+        self.id = room.id
+        self.capacity = room.capacity
+        self.roomNumber = room.roomNumber
+        self.available = Int(truncating: (room.isAvailable) as NSNumber)
+        
+    }
 }
