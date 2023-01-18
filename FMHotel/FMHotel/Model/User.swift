@@ -7,12 +7,13 @@
 import SwiftUI
 import Foundation
 
-public struct User:Codable,Hashable{
+public struct User:Codable{
     var fiscalCode: String
     var name: String
     var surname: String
     var birthDate: Date
-    
+    var photo: Data
+//    var photo: UIImage
 //    init(support:UserSupport){
 //        //self.birthDate = support.birthDate
 //    }
@@ -23,3 +24,19 @@ public struct UserSupport:Codable{
     var surname: String?
     var birthDate: String?
 }
+public struct UserSupport2:Codable{
+    var fiscalCode: String?
+    var name: String?
+    var surname: String?
+    var birthDate: String?
+    var photo: Data?
+}
+
+//public struct SomeImage: Codable {
+//
+//    public let photo: Data
+//
+//    public init(photo: UIImage) {
+//
+//    }
+//}

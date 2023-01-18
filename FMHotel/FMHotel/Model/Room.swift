@@ -32,6 +32,5 @@ public struct RoomSupport{
         self.capacity = room.capacity
         self.roomNumber = room.roomNumber
         self.available = Int(truncating: (room.isAvailable) as NSNumber)
-        
     }
 }

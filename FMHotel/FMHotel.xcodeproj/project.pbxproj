@@ -15,6 +15,7 @@
 		D813DCBF2976D99600CC5DB7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DCBE2976D99600CC5DB7 /* User.swift */; };
 		D813DCC22976DA0000CC5DB7 /* FMProKit in Frameworks */ = {isa = PBXBuildFile; productRef = D813DCC12976DA0000CC5DB7 /* FMProKit */; };
 		EFD7B1CA2976F02E00809577 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7B1C92976F02E00809577 /* Room.swift */; };
+		EFD7B1CC2976F79A00809577 /* RobertoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7B1CB2976F79A00809577 /* RobertoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D813DCB62976D98700CC5DB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D813DCBE2976D99600CC5DB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EFD7B1C92976F02E00809577 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		EFD7B1CB2976F79A00809577 /* RobertoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobertoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D813DCBD2976D98D00CC5DB7 /* Model */,
 				D813DCAF2976D98600CC5DB7 /* FMHotelApp.swift */,
 				D813DCB12976D98600CC5DB7 /* ContentView.swift */,
+				EFD7B1CB2976F79A00809577 /* RobertoView.swift */,
 				D813DCB32976D98700CC5DB7 /* Assets.xcassets */,
 				D813DCB52976D98700CC5DB7 /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 				D813DCB02976D98600CC5DB7 /* FMHotelApp.swift in Sources */,
 				C63043472976F55F00E8BB07 /* Reservation.swift in Sources */,
 				EFD7B1CA2976F02E00809577 /* Room.swift in Sources */,
+				EFD7B1CC2976F79A00809577 /* RobertoView.swift in Sources */,
 				D813DCBF2976D99600CC5DB7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

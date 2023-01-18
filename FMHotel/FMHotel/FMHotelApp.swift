@@ -12,7 +12,7 @@ struct FMHotelApp: App {
     var api:FMODataAPI! = FMODataAPI("napoli.fm-testing.com", "Hotel", "Admin", "Admin")
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RobertoView()
         }
     }
 }
